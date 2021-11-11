@@ -1,0 +1,118 @@
+/* styling  the  body */
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* styling the background images by 
+giving its url and position */
+
+.container {
+    height: 100vh;
+    width:100%;
+    background-image: url("images4.jpg");
+/* image used*/
+background-size: cover;
+background-position : center ;
+position : relative ;
+}
+
+/* styling the list tages to the 
+right of the navigation bar*/ 
+.nav li {
+    float : right;
+    list-style: none;
+
+}
+
+/* styling the anchor tags of 
+the navigation bar*/
+.nav a{
+    list-style: none;
+    height: 50px;
+   line-height: 50px;
+   font-size: 1rem;
+   font-weight: 800px;
+   display: block;
+   padding: 4px 80px;
+   color: black;
+   text-decoration: ;
+background-color:seagreen;
+margin-top: 10px;
+margin-right: 10px;
+}
+  
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+/* giving  position and  margin to the content-div */
+.content {
+    width: 100%;
+    position: absolute;
+    top: 45%;
+
+}
+
+/* styling the left-col by 
+giving maargin */
+
+.left-col h1 {
+    margin-left: 20%;
+}
+
+
+/* styling the my sound placed in the left-col*/
+.left-col h1{
+    font-size: 50px;
+    color:cornflowerblue ;
+
+}
+
+/* styling the right-col*/
+.right-col {
+    float: right;
+    margin-right: 10%;
+    margin-top : -5%;
+    display: flex;
+    align-items: center; 
+}
+
+
+/* styling the text in the right-col */
+.right-col button p {
+    font-size: 40px;
+    color: black;
+    font-weight: 650;
+    margin-right: 50px;
+
+}
+
+.click p{
+    position: center;
+    background-color:mediumturquoise;
+    -moz-stack-sizing: 30px 40px;
+    po
+}
+
+/* styling the cursor type of the icon to pointer */
+
+#icon {
+    padding-top: 250px;
+    cusor: pointer;
+
+    transform: rotateX(30);
+}
+
+body{
+    background-position: 1000px;
+
+    background-color: black;
+    backface-visibility: visible;
+}
+
+

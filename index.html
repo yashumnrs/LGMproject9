@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<link rel="stylesheet" href="musicstore.css">
+
+</head>
+<body>
+    <div class="container">
+        <ul class="nav">
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#"> ABOUT</a></li>
+            <li><a href="#">ARTISTS</a></li>
+            <li><a href="#"> MUSIC</a></li>
+            <li><a href="#">HOME</a></li>    
+        </ul>
+
+    </div>
+<div class="content">
+    <div class="left-col">
+        <h1>My <br> sounds </h1>
+    </div>
+
+    <div class="right-col"></div>
+    <div class="click"> <button> <a href="https://open.spotify.com/album/7zFbzmYGeZeIoplDTADF0Z?autoplay=true#login"> </a><p >click here to listen</p> </a> 
+    </button></div>
+            
+<div id="icon">
+    <img src="images1.jpg" alt="">
+  <img src="images12.jpg" alt="">
+  <img src="images13.jpg" alt="">
+  <img src="images14.jpg" alt="">
+  <img src="images16.jpg" alt="">
+   <img src="images3.jpg" alt="">
+  
+   <img src="images5.jpg" alt="">
+   <img src="images6.jpg" alt=""> 
+   <img src="images7.jpg" alt="">
+   <img src="images8.jpg" alt="">
+  <img src="images9.jpg" alt="">
+  <img src="images15.jpg" alt="">
+   
+</div>
+</div>
+
+<audio id="mysound" src=" ">
+
+    <source src="vande mataram.mp4"    type="audio/mp3/mp4">
+</audio>
+
+<script>
+var mysound = document.getElementById("mysound");
+var icon = document.getElementById("icon");
+
+//creating a function that will change
+// pause to play and vice-versa
+
+icon.onclick = function(){
+    if(mysound.paused){
+        //if paused then play the
+        //music and change the images
+        mysound.play();
+        icon.src ="images2.jpg";
+
+    }else {
+        //if playing then pause the 
+        //music and change  the images
+        mysound.play();
+        icon.src ="images10.jpg";
+    
+    }
+}
+
+</script>
+
+
+</body>
+</html>
